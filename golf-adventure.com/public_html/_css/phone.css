@@ -1,0 +1,532 @@
+@media screen and (max-device-width: 400px) {	
+	/*** Layout ***/
+	body {
+		-webkit-text-size-adjust:none;
+        font-family: Helvetica, Arial, Verdana, sans-serif;
+        margin:0!important;
+        padding:0!important;
+        overflow-x: hidden;
+    	width:100% !important; 
+	}
+	h1,
+	h2,
+	h3,
+	p {
+		margin: 0 1%;
+		width: 98%;
+	}
+	h1 {
+		line-height: 40px;
+	}
+	h2 {
+		line-height: 26px;
+	}
+	h3 {
+		line-height: 26px;
+	}
+	#header_wrapper {
+		height: 50px;
+	}
+	input {
+		-webkit-appearance: none;
+		border-radius: 0;
+	}
+	div,
+	#wrapper {
+		width: 100%;
+	}
+	#page_wrapper {
+		border-right: none;
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	#page {
+		border-right: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	#content {
+		border: none;
+		margin: 60px 0 0 0;
+		padding: 0 !important;
+	}
+	.white {
+		color: #375136;
+	}
+	/*** Header ***/
+	#mobile_header {
+		background: #000;
+		float: left;
+		height: 50px;
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		z-index: 200;
+	}
+	#logo {
+		float: left;
+		top: 15px;
+		width: 25%;
+	}
+	#logo img {
+		height: 30px;
+	}
+	#startpage_topbar {
+		display: none;
+	}
+	#slideshow {
+		display: none;
+	}
+	/*** Menu ***/
+	
+	#main_menu_wrapper {
+		background: #000;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		display: none;
+		margin: -10px 5% 0 5%;
+		padding: 10px 0 5% 0;
+		width: 90%;
+	}
+	#mobile_menu_button {
+		background: #fff;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		float: right;
+		font-size: 30px;
+		margin: 2% 2% 0 0;
+		padding: 1%;
+		position: absolute;
+		right: 2%;
+		width: auto;
+	}
+	#main_menu ul {
+		text-align: left;
+	}
+	.menu ul li {
+		font-size: 20px;
+		font-weight: bold;
+		width: 100%;
+	}
+	#language_form {
+		float: left;
+	}
+	.nl_share {
+		float: right;
+		padding: 0;
+		text-align: left;
+		margin-top: 15px;
+		width: 50%;
+	}
+	.nl_share .fa {
+		float: left;
+	}
+	#login_menu {
+		display: none !important;
+	}
+	.form_wrapper {
+		padding: 2%;
+		width: 94%;
+	}
+	#appreg_form {
+		margin: 0;
+		width: 100%;
+	}
+	#appreg_form_submit {
+		width: auto;
+	}
+
+	/*** Startpage ***/
+	#start_banner {
+		background: url('/_files/Start_Banner/start_banner.png') no-repeat; 
+		background-size: cover;
+		margin: 20px 0 0 0;
+	}
+	.start_banner_content {
+		height: 125px;
+	}
+	.start_banner_content img {
+		height: auto;
+		width: 80%;
+	}
+	.banner_payoff {
+		left: 0;
+		position: absolute;
+		top: 40%;
+		width: 100%;
+	}
+	.banner_payoff h1 {
+		font-size: 30px;
+		line-height: 34px;
+		text-align: center;
+		width: 100%;
+	}
+	.banner_payoff p {
+		line-height: 28px;
+		margin: 0;
+		text-align: center;
+		width: 100%;
+	}
+	#slideshow_container {
+		display: none;
+	}
+	.richter,
+	.richter_content {
+		background: #f00;
+		
+		font-size: 12px;
+		height: 50px;
+		line-height: 14px;
+		position: relative !important;
+		width: 80%;
+	}
+	.offers_wrapper{
+		width: 100%;
+	}
+	.offer_wrapper{
+		width: 100%;
+	}
+	.offer_content {
+		margin: 1%;
+		padding: 1%;
+		width: 96%;
+	}
+	.offer_image_text {
+		width: auto;
+	}
+	#startoffers {
+		width: 98%;
+	}
+	.start_offers .image {
+		width: 98%;
+	}
+	.offer_text {
+		width: auto;
+	}
+	#article_summaries { 
+		border: none;
+		float: none;
+		margin: 0;
+		width: 97%;
+	}
+	#startpage_extra {
+		float: none;
+		width: 97%;
+	}
+	#startpage_extra img {
+		width: 100%;
+	}
+	.article_summary,
+	.startpage_banner,
+	.article_banner,
+	.author_presentation,
+	.categories,
+	.tags,
+	#sidebar .offer_inidcator,
+	#sidebar .offer_video {
+		width: 100%;
+	}
+	#magazine_subcription_wrapper {
+		width: 98%;
+	}
+	.article_summary {
+		border-bottom: 1px solid #ccc;
+		margin: 3% 0;
+	}
+	
+	/*** Articles ***/
+	.column {
+		border-top: 1px dotted #87cefa;
+		margin: 1% 0;
+		padding: 1% 0 0 0;
+		width: 100%;
+	}
+	#article {
+		padding: 0;
+		width: 100%;
+	}
+	#article_wrapper,
+	#article p {
+		width: 98%;
+	}
+	
+	.article_body {
+		margin: 0 1%;
+		width: 98%;
+	}
+	
+	#article img {
+		height: auto;
+	}
+	.tag,
+	.category {
+		width: auto;
+	}
+	#article_info {
+		margin: 0 0 0 1%;
+		width: 99%;
+	}
+	.video_window {
+		width: 80%;
+		height: auto;
+	}
+	.video_window iframe {
+		width: 100%;
+	}
+	.course_information {
+		width: 90%;
+	}
+	#gc_info_wrapper, #course_info_wrapper {
+		float: left;
+		width: 95%;
+	}
+	h1.course_info, h1.gc_info {
+		width: 90%;
+	}
+	#course_location {
+		display: none;
+	}
+	.review_point {
+		width: auto;
+	}
+	.review_point img {
+		width: 20px;
+	}
+	#review_form_mail {
+		width: auto;
+	}
+	#review_submit {
+		width: auto;
+	}
+	
+	/*** Archive/Search ***/
+	#searchform {
+		margin: 0 0 10px 5px;
+		padding: 5px;
+		width: 94%;
+	}
+	#search_input {
+		margin: 0 1%;
+		width: 98%;
+	}
+	#search_input input[type=submit] {
+		width: 15%;
+	}
+	.searchform_category {
+		width: 50% !important;
+	}
+	.search_hit_content,
+	#search_summary {
+		padding: 5px;
+		margin: 0 0 0 5px;
+		width: 94%;
+	}
+	.search_hit p a.search_link {
+		display: none;	
+	}
+	.page_navigation_wrapper {
+		margin: 0 2%;
+		width: 90%;
+	}
+	.navarr_back {
+		width: 30%;
+	}
+	.navarr_forward {
+		width: 30%;
+	}
+	.page_navigation_center {
+		width: 40%;
+	}
+	#contact_form,
+	#contact_form_content {
+		float: left;
+		margin: 0 2%;
+		width: 96%;
+	}
+	#contact_form .form_box {
+		width: 98%;
+	}
+	
+		/** Deals **/
+	#startpage_deal_wrapper {
+		margin: 0;
+		padding: 0 1%;
+		width: 98%;
+	}
+	.deal_image .deal_title {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.feeder_wrapper {
+		width: auto;
+	}
+	
+	
+	/*** Footer ***/
+	#footer {
+		clear: both;
+	}
+	#footer {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	#footer_logo {
+		float: left;
+		margin: 0 auto;
+		width: 70%;
+	}
+	#footer_logo img {
+		height: auto;
+		width: 98%;
+	}
+	#footer_menu {
+		margin: 0;
+		padding: 0 1%;
+		width: 98%;
+	}
+	#footer_bottom div {
+		line-height: 12px;
+		margin: 0;
+		padding: 1% 5%;
+		text-align: left;
+		width: 90%;
+	}
+	#adventure {
+		margin: 0;
+		padding: 0 1%;
+		width: 98%;
+	}	
+	/*** Sidebar ***/
+	#sidebar{ 
+		margin: 0 0 0 1%;
+		padding: 0;
+		width: 99%;
+	}
+	#sidebar_header.menu {
+		width: 100%;
+	}
+	#sidebar_header.menu div {
+		width:90%;
+	}
+	img.offer {
+		max-width: 100%;
+	}
+	#share {
+		width: 100%;
+	}
+	#facebook_wrapper {
+		width: 45%;
+	}
+	.popup {
+		border: none;
+		margin: 0 0 0 5%;
+		width: 90%;
+	}
+	#login_form .form_title,
+	#login_form .form_input {
+		width: 100%;
+	}
+	#app_dl_wrapper {
+		bottom: 1%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		position: fixed;
+		width: 100%;
+		z-index: 99;
+	}
+	#app_dl {
+		margin: 0 auto;
+		width: 145px;
+	}
+	#app_dl .popup_close {
+		left: 10px;
+		top: 10px;
+	}
+	.app_payoff {
+		width: 100%;
+	}
+	.app_payoff_content {
+		background: #87cefa;
+		-moz-border-radius: 40px;
+		border-radius: 40px;
+		bottom: 5%;
+		color: #fff;
+		display: table;
+		font-size: 28px;
+		font-weight: bold;
+		margin: 0 15%;
+		position: absolute;
+		width: 60%;
+		padding: 5%;
+		text-align: center;
+	}
+	.app_payoff_content a {
+		color: #fff;
+		line-height: 32px;
+	}
+	.store_wrap {
+		display: none;
+	}
+	/* Detect phone */
+	#tabletdummy { display: none; }
+	#phonedummy { display: block; }
+	
+	.no_translation {
+		margin: 0 10%;
+		width: 70%;
+	}
+	/*** Mobile Map ***/
+	.mobilemap #content {
+		margin-top: 25px;
+	}
+	.googlemap {
+		height: 100%;
+		margin: 0;
+		padding:0;
+		width: 100%;
+	}
+	.googlemap div {
+		width: auto;
+	}
+	#map_login {
+		background: #fff;
+		font-size: 12px;
+		opacity: 0.7;
+		padding: 0;
+		position: fixed;
+		z-index: 99;
+	}
+	#map_login p {
+		line-height: 14px;
+	}
+	#app-map {
+		height: 150px !important;
+		width: 75px;
+	}
+	#app-deals {
+		height: 150px !important;
+		width: 75px;
+	}
+	.deal_summary_wrapper {
+		clear: both;
+		margin: 0 1%;
+		width: 98% !important;
+	}
+	.deal_inner {
+		clear: both;
+		margin: 1%;
+		width: 98% !important;
+	}
+	.register_startpage {
+		width: 90% !important;
+	}
+	#chronicle_info {
+		margin: 0;
+		width: auto;
+	}
+}

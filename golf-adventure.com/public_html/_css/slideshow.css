@@ -1,0 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#slideshow {
+
+}
+
+#slideshow_container{
+	background: url('/_files/Slideshow/phone-shell-bg.png') no-repeat !important;
+	position:relative;
+	z-index: 50;
+}
+
+#slideshow_container .prevButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('/_icons/slideshow_buttons.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:left top;
+	left:0
+}
+
+#slideshow_container .prevButton:hover{ background-position:left bottom;left:0;}
+
+#slideshow_container .nextButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('/_icons/slideshow_buttons.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:right top;
+	right:0
+}
+
+#slideshow_container .nextButton:hover{background-position:right bottom;right:0;}
+
+#slideshow_container ul {
+	width:350px;
+	height:548px;
+	list-style:none outside none;
+	position:absolute;
+	overflow:hidden;
+}
+
+#slideshow_container li:first-child{
+	display:list-item;
+	position:absolute;
+}
+
+#slideshow_container li {
+	position:absolute;
+	width:350px;
+	height:548px;
+	display:none;
+	top: -2px;
+}
+.phone-shell {
+	position: absolute;
+	width:350px !important;
+	height:548px !important;
+	margin: 0 0 0 25px;
+	
+	z-index: 60;
+}
+#slideshow_container li img {
+	width:350px;
+	height:548px;
+}

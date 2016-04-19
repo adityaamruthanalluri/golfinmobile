@@ -1,0 +1,513 @@
+
+
+<style>
+			#logo {
+				float: left;
+				width: 40%;
+			}
+			#main_menu_wrap {
+				width: 25%;
+			}
+		
+			#article_summaries {
+				width: 100%;
+			}
+		
+			#wrapper {
+				width: 940px;
+			}
+			#page_wrapper {
+				border-right: none;
+			}
+		</style>
+<!doctype html> 
+
+<head>
+	<title>
+		Golfinmobile
+	</title>
+	<!--Metadata-->
+	<meta charset="utf-8">
+	<meta name="description" content="您可以下載的應用程序GolfinMobile在App Store或谷歌播放。
+它是完全免費的，如果你註冊成為用戶，您可以訪問所有內容，所有文章和優惠。
+
+" />
+	<meta name="keywords" content="default, meta, keywords" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	<!--CSS-->
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/minified/jquery-ui.min.css" type="text/css" /> 
+	<link rel="stylesheet" type="text/css" href="/_js/fancyBox/source/jquery.fancybox.css" media="screen" />
+	<link href="/_css/slideshow.css" rel="stylesheet" type="text/css" />
+	<link href="/_css/style.css" rel="stylesheet" type="text/css" />
+	
+	<link href="/_css/forms.css" rel="stylesheet" type="text/css" />
+	<link href="/_css/navigation.css" rel="stylesheet" type="text/css" />
+				
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<!--script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script-->
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/_js/fancyBox/source/jquery.fancybox.pack.js"></script>
+	<!--script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script-->
+	<!--Internal javascripts-->
+	<!--script type="text/javascript" src="/_js/slideshow.js"></script-->
+	<script type="text/javascript" src="/_js/jquery.common.js"></script>
+	<script type="text/javascript" src="/_js/jquery.forms.js"></script>
+	<script type="text/javascript" src="/_js/jquery.lang.js"></script>
+	<script type="text/javascript" src="/_js/jquery.login.js"></script>
+	<!--script type="text/javascript" src="/_js/jquery.map.js"></script-->
+	<script type="text/javascript" src="/_js/jquery.menus.js"></script>
+	<!---script type="text/javascript" src="/_js/jquery.newsletter.js"></script--->
+	<script type="text/javascript" src="/_js/jquery.popups.js"></script>
+	<script type="text/javascript" src="/_js/jquery.registration.js"></script>
+	<script type="text/javascript" src="/_js/jquery.settings.js"></script>
+	<script type="text/javascript" src="/_js/slideshow.js"></script>
+    <script type="text/javascript" src="/_js/tinymce/js/tinymce/tinymce.min.js"></script>
+	<script type="text/javascript" src="/_js/tiny-mce-init.js"></script>
+	<script type="text/javascript" src="/_js/google_analytics.js"></script>
+</head>
+<html>
+	<body class="startpage">
+		<div class="popup error_message_wrapper">
+			<div id="error_message_content" class="form_wrapper">
+				<div class="popup_close">x</div>
+				<div class="error_message_title">Error!</div>
+				<div id="error_message"></div>
+			</div>
+		</div>
+		<div id="forms_bkg"></div>
+		
+			
+		
+		<div id="header_wrapper">
+			<div id="header"> 
+		
+				<div id="logo">
+					<a href="/" class="home">
+						<img src="/_icons/logotype.png" />
+					</a>
+				</div>
+				<div id="payoff">
+					&nbsp; &nbsp;
+				</div>
+		
+			<div id="login_menu">
+				
+						<div class="lightbox" id="login">
+							Log in
+						</div><!--.lightbox"-->
+						<div class="lightbox" id="register">
+							Register
+						</div><!--.lightbox"-->
+					 
+			</div>
+			
+				
+				<div id="main_menu_wrapper" class="menu">
+					<div id="main_menu">
+			
+						<ul class="menucontainer menuparent_0" style="z-index:1000"><li class="menuitem_9 menulevel_1"><a href="/features-in-golfinmobile" id="menu_item_Features">Features</a></li><li class="menuitem_10 menulevel_1"><a href="/about-us" id="menu_item_About us">About us</a></li><li class="menuitem_11 menulevel_1"><a href="/contact-us" id="menu_item_Contact us">Contact us</a></li></ul>
+				<div id="language_form">
+			
+					<span id="EN" class="language_choice
+				 language_choosen" data-url="/">
+						<img src="/_icons/lang_EN.jpg" title="Change language to EN" />
+					</span>
+				
+					<span id="SV" class="language_choice
+				" data-url="/">
+						<img src="/_icons/lang_SV.jpg" title="Change language to SV" />
+					</span>
+				
+				</div>
+				<div class="no_translation">
+					This article has no translated version.<br />Re-directing to startpage.
+				</div>
+			
+						<div class="clear_both"></div>
+					</div><!--#main_menu--->
+					<div class="clear_both"></div>
+				</div><!--#main_menu_wrapper--->
+			
+			
+		
+				<div class="clear_both"></div>
+			</div>
+		</div>
+		
+					<div class="popup register_wrapper">
+						<div id="register_form" class="form_wrapper">
+							<div class="popup_close">x</div>
+							
+					<form name="users" method="post" action="/_php/db.management.php" id="users" class="admin_form"
+						
+					>
+						<input type="hidden" name="data" value="-15-07-28-01-50-43" />
+			
+							<div class="form_row clear_both">
+								<div class="form_title">
+									First name
+					
+									<span class="req_icon">*</span>
+								</div>
+								<div class="form_input
+					
+								" id="form_user_first_name">
+					
+									<input type="text" name="user_first_name" id="user_first_name" class="text first_name
+							
+										required" data-errormsg="First name
+										"
+								 	value="" />
+							
+								</div>
+							</div>
+							
+							<div class="form_row clear_both">
+								<div class="form_title">
+									Last name
+					
+									<span class="req_icon">*</span>
+								</div>
+								<div class="form_input
+					
+								" id="form_user_last_name">
+					
+									<input type="text" name="user_last_name" id="user_last_name" class="text last_name
+							
+										required" data-errormsg="Last name
+										"
+								 	value="" />
+							
+								</div>
+							</div>
+							
+							<div class="form_row clear_both">
+								<div class="form_title">
+									Street
+					
+									<span class="req_icon">*</span>
+								</div>
+								<div class="form_input
+					
+								" id="form_user_street">
+					
+									<input type="text" name="user_street" id="user_street" class="text street
+							
+										required" data-errormsg="Street
+										"
+								 	value="" />
+							
+								</div>
+							</div>
+							
+							<div class="form_row clear_both">
+								<div class="form_title">
+									Zip
+					
+									<span class="req_icon">*</span>
+								</div>
+								<div class="form_input
+					
+								" id="form_user_zip">
+					
+									<input type="text" name="user_zip" id="user_zip" class="text zip
+							
+										required" data-errormsg="Zip
+										"
+								 	value="" />
+							
+								</div>
+							</div>
+							
+							<div class="form_row clear_both">
+								<div class="form_title">
+									City
+					
+									<span class="req_icon">*</span>
+								</div>
+								<div class="form_input
+					
+								" id="form_user_city">
+					
+									<input type="text" name="user_city" id="user_city" class="text city
+							
+										required" data-errormsg="City
+										"
+								 	value="" />
+							
+								</div>
+							</div>
+							
+							<div class="form_row clear_both">
+								<div class="form_title">
+									E-mail
+					
+									<span class="req_icon">*</span>
+								</div>
+								<div class="form_input
+					
+								" id="form_user_email">
+					
+									<input type="email" name="user_email" id="user_email" class="email email
+							
+										required" data-errormsg="E-mail
+										"
+								 	value="" />
+							
+								</div>
+							</div>
+							
+						<div class="form_row">
+							<div class="form_title">&nbsp;</div>
+							<div class="form_input">
+							<input type="submit" value="Register me" class="submit_button" />
+						</div>
+					</div>
+				</form>
+			
+						</div>
+					</div>
+				
+					<div class="popup login_wrapper">
+						<div id="login_form" class="form_wrapper">
+							<div class="popup_close">x</div>
+							<input type="hidden" name="do_login" value="1" />
+							<div class="summary">
+								Log in to administrate the web site.
+							</div><!--.summary-->
+							<div class="form_row clear_both">
+								<div class="form_title">
+									E-mail
+								</div><!--.title-->
+								<div class="form_input">
+									<input type="email" id="login_email" class="required login_email" data-errormsg="E-mail" />
+								</div>
+							</div>
+							<div class="form_row clear_both">
+								<div class="form_title">
+									Password
+								</div>
+								<div class="form_input">
+									<input type="password" id="login_password" class="required" data-errormsg="Password" />
+								</div>
+							</div>
+							<div class="form_row clear_both">
+								<div class="form_title">
+									<div id="forgot_password">
+										Forgot your password?
+									</div>
+								</div>
+								<div class="form_input">
+									<input type="submit" id="login_submit" class="submit_button" value="Log in" />
+								</div>
+							</div>
+						</div>
+					</div>
+			
+					<div class="popup password_wrapper">
+						<div id="password_form" class="form_wrapper">
+							<div class="popup_close">x</div>
+							<div>Reset password</div>
+							<form name="password_form" method="post" action="/_php/db.management.php">
+								<div id="password_recovery">
+									<input type="hidden" name="do_password" value="1" />
+									<div class="form_row clear_both">
+										<div class="form_title">
+											E-mail
+										</div>
+										<div class="form_input">
+											<input type="email" name="email" id="email" class="required password_email" data-errormsg="E-mail" />
+										</div>
+									</div>
+									<div class="form_row clear_both">
+										<div class="form_title">
+											<div>
+												&nbsp;
+											</div>
+										</div>
+										<div class="form_input">
+											<input type="submit" name="submit" id="submit" class="submit_button" value="Help me" />
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+								<div id="start_banner">
+			
+				<div class="start_banner_content">
+			
+				<div id="slideshow_container">
+					<img class="phone-shell" src="/_files/Slideshow/phone-shell.png" />
+					<ul>
+			
+						<li>
+							<img src="/_files/Slideshow/60-news.png" />
+						</li>
+				
+						<li>
+							<img src="/_files/Slideshow/50-club.png" />
+						</li>
+				
+						<li>
+							<img src="/_files/Slideshow/40-ClubList.png" />
+						</li>
+				
+						<li>
+							<img src="/_files/Slideshow/30-map.png" />
+						</li>
+				
+						<li>
+							<img src="/_files/Slideshow/20-menu_2.png" />
+						</li>
+				
+						<li>
+							<img src="/_files/Slideshow/10-menu_1.png" />
+						</li>
+				
+					</ul>
+					<span class="button prevButton"></span>
+					<span class="button nextButton"></span>
+				</div>	
+		 	
+					<div class="store_wrap">
+							<img src="/_files/Apps/iPhone_app_p-_AppStore.png" alt"Go to Applestore" width="145" height="40" class="left" />
+							<img src="/_files/Apps/Android_App_p-_Google_Play.png" width="145" height="40" alt"Go to Google Play" class="right" />
+					</div>
+					<div class="banner_payoff">
+						<h1>Where are you golfing today?</h1><p>Find golf courses with accomodation and restaurants all over the world!</p>
+					</div>
+					
+					<div class="richter">
+						<span class="richter_content">
+							Hot reviews of golf courses
+						</span>
+					</div>
+				</div>
+					</div>
+		<div id="start_welcome">
+			
+				<div class="start_welcome_content">
+					
+	<h1>Find the Perfect Golf Trip wherever you are!!!</h1>
+	<p>Chat directly with the golf courses representatives<br /> 
+	Order your golf trip on line<br /> 
+	Get fabulous offers and packages dirctly to your smartphone<br />
+	See ratings and rate courses, accomodation and restaurants yourself<br /></p>
+				</div>
+					</div>
+		<div id="start_image">
+			<center><img src="/_files/Start_Banner/start_map.jpg" /></center>		</div>
+				<div class="clear_both"></div>
+		<div id="wrapper">
+			<div id="page_wrapper">
+				<div id="page">
+					<div id="content">
+						
+				
+			
+				<div id="article_summaries">
+					
+					<div class="article_summary boxright pos_1">
+				
+						<h1>
+				</h1>
+				
+						<div class="article_summary_content">
+							
+				
+							<div class="clear_both"></div>
+						</div>
+					
+						<div class="clear_both"></div>
+					</div>
+				
+					
+				
+					<div class="article_summary boxright pos_2">
+				
+						<h1>
+				Enhance your golf experience</h1>
+				
+						<div class="article_summary_content">
+							<div class="column"><img src="../../../_files/Apps/Symbols/golf_logo.png" alt="" /><br />
+<h2>On top of the world</h2>
+<p>Find the best golf cources, restaurants and accomodations near you.</p>
+</div>
+<div class="column"><img src="../../../_files/Apps/Symbols/location_golfclub.png" alt="" /><br />
+<h2>Golf clubs</h2>
+<p>Search and find golf courses by name, location or rating.<br />  </p>
+</div>
+<div class="column"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../_files/Apps/Symbols/golf-restaurants.jpg" alt="" />
+<h2>Golf restaurants</h2>
+<p>Start or finnish your golf round with a exceptional meal.<br /><br /></p>
+</div>
+<div class="column"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../_files/Apps/Symbols/accomodations.jpg" alt="" />
+<h2>Accomodations</h2>
+<p>Play and stay over.<br /><br /></p>
+</div>
+<div class="column"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../_files/Apps/Symbols/mobilemenu-news.png" alt="" />
+<h2>Golf articles</h2>
+<p>Get the latest articles about golf and golf cources.<br /><br /></p>
+</div>
+<div class="column"><img src="../../../_files/Apps/Symbols/mobilemenu_chat.png" alt="" /><br />
+<h2>Reserve your golf round on line</h2>
+<p>Chat with golf club representatives and get information you need.<br /><br /></p>
+</div>
+<div class="column"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../_files/Apps/Symbols/golf_events.png" alt="" />
+<h2 style="text-align: center;">Golf Events</h2>
+<p style="text-align: center;">Never ever miss an important golf event again!</p>
+</div>
+<div class="column" style="text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../_files/Apps/Symbols/golf_deals.png" alt="" />
+<h2 style="text-align: center;">Golf Deals</h2>
+<p>Make fantastic Golf Deals!</p>
+</div>
+				
+							<div class="clear_both"></div>
+						</div>
+					
+						<div class="clear_both"></div>
+					</div>
+				
+					
+				
+					<div class="clear_both"></div>
+				</div>
+									<div id="start_partners">
+							
+				<div class="start_partners">
+					<div class="start_partners_wrapper">
+			
+						<div class="start_partner" style="width: 50%;">
+							<img src="/_partners/westindia_technology.png" />
+						</div>
+				
+						<div class="start_partner" style="width: 50%;">
+							<img src="/_partners/golfbladet.png" />
+						</div>
+				
+					</div>
+					<div class="clear_both"></div>
+				</div>
+									</div>
+					</div>
+					<div class="clear_both"></div>
+					<div id="footer">
+						
+		<div id="footer_content">
+			<div id="footer_copyright">
+				© 2015 - All rights reserved Golfinmobile &amp; Westindia Technology
+			</div>
+			<div id="footer_credits">
+				Powered by MONTEGO
+			</div>
+			<div class="clear_both"></div>
+		</div>
+						</div>
+				</div>
+								<div class="clear_both"></div>
+			</div>
+			<div class="clear_both"></div>
+		</div>
+	</body>
+</html>

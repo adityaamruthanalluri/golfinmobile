@@ -1,0 +1,40 @@
+body {
+	font-size: 12px;
+	width: 600px;
+}
+img {
+		max-width: 100%;
+	}
+#logotype {
+	background: #000;
+	width: 100%;
+}
+#content {
+	margin: 1em 0 0 0;
+	padding: 0 0 1em 0;
+	width: 100%;
+}
+#footer {
+	border-top: 1px solid #bbb;
+	color: #ccc;
+	margin: 1em 0 0 0;
+	padding: 0 0 1em 0;
+	width: 100%;
+}
+
+/*** Responsive for iPhone etc ***/
+
+@media screen and (max-width: 480px) {
+
+	body,
+	div {
+		width: 90%;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	#footer {
+		font-size: 8px;
+	}
+
+}

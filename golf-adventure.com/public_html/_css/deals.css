@@ -1,0 +1,215 @@
+.third {
+	float: left;
+	text-align: center;
+	width: 33%;
+}
+.deal_wrapper {
+	max-width: 640px;
+	margin: 0 auto;
+}
+.deal_row {
+	clear: both;
+	width: 100%;
+}
+.deal_details h2 {
+	text-align: center;
+}
+.deal_sum_bottom {
+	font-size: 12px;
+	text-align: center;
+	vertical-align: sub;
+	width: 100%;
+}
+.deal_row .strikethrough {
+	color: #888;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.deal_end_info,
+.deal_price_wrapper  {
+	float: left;
+}
+.deal_end_info {
+	font-size: 15px !important;
+}
+.deal_price_wrapper {
+	padding: 10px 0 !important;
+}
+.deal_inner {
+	margin: 1%;
+}
+#startpage_deal_wrapper {
+	clear: both;
+	width: 100%;
+}
+#startpage_deal_wrapper .deal_summary_wrapper {
+	border: none;
+}
+.deal_summary_wrapper .deal_summary_wrapper {
+	border: 1px solid #ccc !important;
+	width: 100%;
+}
+.deal_summary_wrapper {
+	float: left;
+	margin: 0 1% 1% 0;
+	width: 32%;
+}
+.deal_summary_wrapper .deal_end_info {
+	font-size: 12px !important;
+}
+.deal_summary_wrapper h3 {
+	padding: 0 0 0 1%;
+}
+.deal_image {
+	position: relative;
+}
+.deal_image_info {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+.deal_image_info input {
+	font-size: 30px !important;
+}
+.deal_image .deal_title {
+	background: #000;
+	bottom: 0;
+	color: #fff;
+	font-weight: bold;
+    opacity: 0.7;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+.deal_link {
+	margin: 1% 2%;
+}
+.view_deal {
+	bottom: 5px;
+	position: absolute;
+	right: 5px;
+}
+input#deal {
+	float: right;
+	background: transparent;
+	border: 2px solid #bbbbbb;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 28px !important;
+	margin: 0 3% 0 0;
+	padding: 0 0 0 10px;
+	width: 400px;
+}
+.current,
+.change_form {
+	float: left;
+	width: 48%;
+}
+.current {
+	margin: 0 2% 0 0;
+}
+.change_form {
+	margin: 0 0 0 2%;
+}
+.current .deal_summary_wrapper {
+	width: 100%;
+}
+
+.administration .deal_title {
+	font-weight: normal;
+	text-align: left;
+	text-transform: none;
+}
+.deal_description h2 {
+	font-size: 24px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+.feeder_wrapper {
+	border: 1px solid #ccc;
+	height: 5px;
+}
+.feeder_feed {
+	background: #ccc;
+	height: 5px;
+}
+.deal_middle,
+.deal_left,
+.deal_right {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.deal_middle,
+.deal_left {
+	padding: 15px 0 0 0;
+}
+#temp_pwd {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
+/* Reciept */
+#deal_reciept_wrapper {
+	margin: 0 auto;
+	width: 595px;
+}
+#deal_reciept_wrapper .deal_summary_wrapper {
+	width: 100%;
+}
+.reciept_header {
+	margin : 0 0 20px 0;
+	text-align: center;
+}
+#qr_code {
+	text-align: center;
+}
+#qr_code img {
+	border: 1px solid #ccc;
+}
+.qr_info {
+	clear: both;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 10px;
+}
+
+#deal_confirmation_form .form_input {
+	margin-bottom: 10px;
+	width: 100% !important;
+}
+#deal_confirmation_form .form_input label {
+	font-size: 10px;
+}
+
+.menucontainer .fa {
+	font-size: 16px !important;
+}
+
+
+/*** QUIZ ***/
+#quiz_wrapper {
+	background: #396e03
+;
+	clear: both;
+	height: 30px;
+	width: 98.4%;
+}
+.sp_quiz_wrapper {
+	background: #fff;
+	float: left;
+	width: 20%;
+}
+.quiz_question {
+	border: 1px solid #000;
+	background: #ccc;
+	margin: 1px;
+	padding: 5px;
+}

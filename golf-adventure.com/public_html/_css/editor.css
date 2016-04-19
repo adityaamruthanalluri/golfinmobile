@@ -1,0 +1,10 @@
+#columns {
+	width: 100%;
+}
+.column {
+	border: dotted 1px #aaa;
+	float: left;
+	margin: 0 0.5% 0 0;
+	padding: 0.5%;
+	width: 48%;
+}

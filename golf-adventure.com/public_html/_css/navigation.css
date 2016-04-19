@@ -1,0 +1,150 @@
+/*** Menu ***/
+#main_menu_wrapper {
+	float: right;
+	margin: 10px 0 10px 0;
+	width: 80%;
+	text-align: right;
+}
+#main_menu {
+	float: left;
+}
+
+#main_menu ul {
+	text-align: left;
+}
+.menu {position: relative;z-index: 0;}
+.menu ul {
+	padding: 0;
+	position: relative;
+}
+.menu ul li {
+	float: left;
+	height: 17px;
+	list-style: none;
+	padding: 5px 10px;
+	position: relative;
+}
+#login_menu ul li {
+	padding: 5px;
+}
+#login_menu ul li ul li {
+	padding: 5px 10px;
+}
+.menu #admin_menu ul li {
+	border-right: 1px solid #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: auto;
+}
+.menu #admin_menu ul li:last-child {
+	border-right: none;
+	padding-right: 20px;
+}
+.menu ul div,
+.menu ul li a,
+.login_menu_item {
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.menu ul div {
+	cursor: default;
+}
+.menu ul li ul {
+	display: none;
+	margin: 0 00 10px;
+}
+.menu ul li ul li {
+	border-top: 1px dotted #444444;
+	padding: 5px 10px;
+	width: 100%;
+	text-align: left;
+}
+.menu ul li ul li a {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.menulevel_2 {
+	background: #555;
+	font-size: 16px;
+}
+.menulevel_2:hover {
+	background: #888;
+}
+.menulevel_2:hover a {
+	color: #fff;
+}
+.menulevel_3 {
+	background: #aaaaaa;
+}
+.menulevel_3:hover {
+	background: #cccccc;
+}
+
+/*** Page navigation ***/
+.page_navigation_wrapper {
+	clear: both;
+	font-size: 12px;
+	margin: 0 0 1em 0;
+	padding: 1em 1em 1em 0;
+	position: relative;
+}
+.navarr_back {
+	float: left;
+	width: 20%;
+}
+.navarr_forward {
+	float: right;
+	text-align: right;
+	width: 20%;
+}
+.page_navigation_center {
+	float: left;
+	text-align: center;
+	width: 60%;
+}
+.nav_center {
+	width: 100%;
+}
+
+/*** Admin ***/
+#admin_menu_wrapper {
+	background: #396e03;
+	border: 1px solid #fff;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	bottom: 1px;
+	left: 1px;
+	position: fixed;
+	z-index: 100000;
+}
+li.admin_menu_toggle {
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+}
+#admin_menu ul li {
+	color: #fff;
+}
+#admin_menu .lightbox,
+#admin_menu ul li a {
+	font-size: 12px;
+}
+.admin_menu_bar {
+	margin: 0 0 10px 0;
+}
+.admin_menu_bar a {
+	border: 1px solid #375136;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 0.2em 0.5em;
+}
+.admin_menu_bar a:hover {
+	background: #555;
+	color: #bbb;
+}
+.menu_file_manager.iframe-btn {
+	border:none !important;
+	position: relative;
+	top: -13px;
+}

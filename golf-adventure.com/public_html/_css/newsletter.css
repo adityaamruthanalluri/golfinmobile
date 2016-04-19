@@ -1,0 +1,19 @@
+/*** Newsletter ***/
+#newsletter_subscribe {
+	cursor: pointer;
+}
+#newsletter_form_wrapper {
+	display: none;
+}
+.nl_share div {
+	text-align: left;
+}
+.nl_share .form_input {
+	width: 100%;
+}
+.nl_share .form_input input {
+	margin: 0 0 10px 0 !important;
+}
+#send_newsletter {
+	cursor: pointer;
+}
